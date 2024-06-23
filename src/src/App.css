@@ -1,0 +1,29 @@
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Fallback color */
+  background-image: url('../background-image.png'); /* Replace with your PNG image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden; /* Ensure no background overflow */
+  perspective: 1000px; /* Perspective for 3D effects */
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional: Apply 3D effect to components */
+.App-header,
+.App-footer,
+.card {
+  transform-style: preserve-3d;
+  transform: translateZ(50px); /* Adjust depth */
+}

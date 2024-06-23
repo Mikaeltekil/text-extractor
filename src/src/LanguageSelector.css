@@ -1,0 +1,32 @@
+/* LanguageSelector.css */
+
+.language-selector-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.language-selector {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  perspective: 1000px;
+  appearance: none; /* Remove default styling */
+}
+
+.language-selector:hover {
+  transform: translateZ(10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.language-selector:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(33, 150, 243, 0.5);
+  border-color: #2196f3;
+}
