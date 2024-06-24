@@ -1,0 +1,70 @@
+.account-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.btn {
+  background-color: #ff7e5f;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: #ff7e5f;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+.toggle-button:hover {
+  text-decoration: none;
+}
